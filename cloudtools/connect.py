@@ -35,7 +35,8 @@ def main(args):
         'spark-ui1': 4041,
         'spark-ui2': 4042,
         'spark-history': 18080,
-        'notebook': 8123
+        'notebook': 8123,
+        'rstudio': 8787
     }
     connect_port = dataproc_ports[service]
 
